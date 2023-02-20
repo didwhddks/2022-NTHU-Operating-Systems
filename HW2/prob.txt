@@ -1,0 +1,4 @@
+1. 為什麼把thread丟進ready queue裡面的時候要disable interrupt
+(scheduler在做事的時候要disable interrupt)
+2. translate.h is in machine/
+3. What is UserStackSize in Addrspace::Load()

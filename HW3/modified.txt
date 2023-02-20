@@ -1,0 +1,6 @@
+1. compare function -1, 0, 1
+2. ReadyToRun: Append into L1, L2 and L3 based on the priority.
+3. FindNextToRun
+
+RR的thread如果被打斷了 那他再重新回到CPU時會重新倒數100ticks
+還是把100ticks補滿

@@ -1,0 +1,28 @@
+1. The death of CPU scaling
+2. Heterogeneous computing
+3. nonvolatile main memory
+4. shell CLI
+5. parameter marshaling
+6. remote procedure calls cannot be passed by reference and pointer.
+reason 1: memory的boundary不容易去判斷
+reason 2: 指到的memory的size可能很大，不符合RPC的功能。
+7. threading model
+8. pthread_create is a non-blocking code.
+9. pthread_join is a blocking code.
+10. MMU has two memory registers: base register and length register.
+11. library not found - dynamic binding
+12. segmentation 比較符合user view，而paging比較好操作memory.
+13. data locality program access a specific region of memory in a period of time : for loop
+14. disadvantage of dynamic linking: runntime overhead、在run time才bind address，如果address錯就完蛋了
+
+set memory or access memory are not privilleged 
+instructions. But load base and limit register is privilleged
+instructions.
+
+期中考考到chapter 9
+
+preemptive + disable interrupt (kernel design)
+context switch: dispatcher
+
+DMA I/O method needs to bypass CPU
+physical memory address rather than virtual memory address

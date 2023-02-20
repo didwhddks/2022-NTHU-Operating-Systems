@@ -1,0 +1,8 @@
+.bash*
+.ssh/
+.emacs
+.viminfo
+.vim
+os.sh
+.alias
+.vimrc
